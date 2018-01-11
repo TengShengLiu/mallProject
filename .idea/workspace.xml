@@ -8,360 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/acrossTab/acrossTab-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/admin-login-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/admin-loginform-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/cn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/images/um.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/blue/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/blue/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/blue/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/default/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/default/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/default/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/green/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/green/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/green/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/orange/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/orange/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/orange/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/red/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/red/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/red/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/yellow/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/yellow/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/yellow/icon_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/Hui-tags/empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/acrossTab/acrossTab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/acrossTab/acrossTab-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/acrossTab/acrossTab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/dataTable/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/dataTable/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/dataTable/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/dropDown/icon-jt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/201.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/202.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/203.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/204.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/205.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/206.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/207.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/208.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/209.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/210.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/face/QQ/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/aero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/aero@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/grey@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/minimal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/minimal@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/orange@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/pink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/purple@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/red@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iCheck/yellow@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/iconpic-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/jselect/iconpic-arrow-down2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/loading/loading-b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/loading/loading-s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/rollpic/unslider-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/star/iconpic-star-S-default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/star/iconpic-star-S.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/steps/step_arrow-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/steps/step_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/steps/step_bg-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/steps/step_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/ucnter/avatar-default-S.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/ucnter/avatar-default.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/ucnter/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/ucnter/noavatar_small.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/validform/iconpic-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/validform/iconpic-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/validform/iconpic-warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav_right-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav_right-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tabNav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/images/verticalTab/tab_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/200x150.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/chai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/chufang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/keting.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/keting2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/keting3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/keting4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/shouju.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/shufang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/weishengjian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/weishengjian2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/woshi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumb/youyongchi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/chai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/chufang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/keting.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/keting2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/keting3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/keting4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/shouju.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/shufang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/weishengjian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/weishengjian2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/woshi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/big/youyongchi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/brand/ambio.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/brand/dongpeng.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/brand/shengxiang.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/product/Thumb/5345.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/temp/product/Thumb/6204.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/artifacts/admin_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/artifacts/admin_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/artifacts/mallProject_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/artifacts/mallProject_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources/14885a2b-b60c-4393-9400-451e059ac045.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources/30657d91-d724-4518-b058-1632a85ae6e8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__com_alibaba_druid_1_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/admin.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_blank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_meta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-permission.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-role-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-role.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/article-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/article-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/change-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/charts-7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/codeing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/feedback-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/Hui-iconfont/1.0.8/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-del.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-record-browse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-record-download.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-record-share.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/member-show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/picture-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/picture-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/picture-show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/product-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/product-brand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/product-category-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/product-category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/product-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/css/H-ui.admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/css/H-ui.login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/js/H-ui.admin.page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/js/de_DE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/blue/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/default/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/green/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/orange/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/red/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui.admin/skin/yellow/skin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/css/H-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/css/H-ui.ie.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/css/H-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/css/H-ui.reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/js/H-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/static/h-ui/js/H-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-category-add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-data.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-log.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/system-shielding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/mallProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/dao/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/interceptor/LoginInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/po/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/serviceImpl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/resources/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/webapp/WEB-INF/views/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/src/test/java/com/hwua/mall/test/UserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../mallProject/out/" />
     <ignored path="$PROJECT_DIR$/../mallProject/target/" />
@@ -394,14 +42,34 @@
       <file leaf-file-name="admin-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+            <state relative-caret-position="430">
+              <caret line="253" column="18" lean-forward="true" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="18" />
               <folding>
                 <marker date="1490074809000" expanded="true" signature="12829:12849" ph="..." />
                 <marker date="1490074809000" expanded="true" signature="12875:12883" ph="&amp;##xe615;" />
                 <marker date="1490074809000" expanded="true" signature="13301:13321" ph="..." />
                 <marker date="1490074809000" expanded="true" signature="13347:13355" ph="&amp;##xe631;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -552,36 +220,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mallProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mallProject" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mallProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mallProject" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="h-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mallProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mallProject" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="h-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mallProject" type="b2602c69:ProjectViewProjectNode" />
@@ -916,8 +554,16 @@
       <workItem from="1515651407121" duration="49000" />
       <workItem from="1515651684080" duration="327000" />
       <workItem from="1515652026184" duration="441000" />
-      <workItem from="1515652485539" duration="4675000" />
+      <workItem from="1515652485539" duration="6383000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1515658759981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515658759981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -944,10 +590,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15051000" />
+    <option name="totallyTimeSpent" value="16759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -955,7 +602,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06288344" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15885022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10582822" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -964,7 +611,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062027" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279879" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1505295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1023,37 +670,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mallProject/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mallProject/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <marker date="1515638384681" expanded="true" signature="387:405" ph="SELECT * FRO... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1378,10 +1003,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/lib/datatables/1.10.0/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        <state relative-caret-position="430">
+          <caret line="253" column="18" lean-forward="true" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="18" />
           <folding>
             <marker date="1490074809000" expanded="true" signature="12829:12849" ph="..." />
             <marker date="1490074809000" expanded="true" signature="12875:12883" ph="&amp;##xe615;" />
