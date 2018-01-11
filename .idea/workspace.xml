@@ -7,10 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mallProject/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../mallProject/out/" />
     <ignored path="$PROJECT_DIR$/../mallProject/target/" />
     <ignored path="$PROJECT_DIR$/../mallProject/admin/target/" />
@@ -42,8 +39,8 @@
       <file leaf-file-name="admin-list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="253" column="18" lean-forward="true" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="233" column="20" lean-forward="true" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
               <folding>
                 <marker date="1490074809000" expanded="true" signature="12829:12849" ph="..." />
                 <marker date="1490074809000" expanded="true" signature="12875:12883" ph="&amp;##xe615;" />
@@ -554,7 +551,7 @@
       <workItem from="1515651407121" duration="49000" />
       <workItem from="1515651684080" duration="327000" />
       <workItem from="1515652026184" duration="441000" />
-      <workItem from="1515652485539" duration="6383000" />
+      <workItem from="1515652485539" duration="6443000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1515658759981</created>
@@ -563,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515658759981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1515660278158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1515660278158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16759000" />
+    <option name="totallyTimeSpent" value="16819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1029,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mallProject/admin/src/main/webapp/static/h-ui/admin-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="253" column="18" lean-forward="true" selection-start-line="253" selection-start-column="18" selection-end-line="253" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="233" column="20" lean-forward="true" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
           <folding>
             <marker date="1490074809000" expanded="true" signature="12829:12849" ph="..." />
             <marker date="1490074809000" expanded="true" signature="12875:12883" ph="&amp;##xe615;" />
