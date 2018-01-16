@@ -6,34 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/dao/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/interceptor/LoginInterceptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/po/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/java/com/hwua/mall/serviceImpl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/resources/spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/webapp/WEB-INF/views/main.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mallProject/src/test/java/com/hwua/mall/test/UserTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/artifacts/admin_war_exploded.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/artifacts/admin_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/dataSources/30657d91-d724-4518-b058-1632a85ae6e8.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources/30657d91-d724-4518-b058-1632a85ae6e8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/modules.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/admin/admin.iml" afterPath="$PROJECT_DIR$/../mallProject/admin/admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/admin/pom.xml" afterPath="$PROJECT_DIR$/../mallProject/admin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../mallProject/admin/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/pom.xml" afterPath="$PROJECT_DIR$/../mallProject/pom.xml" />
-    </list>
+    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../mallProject/out/" />
     <ignored path="$PROJECT_DIR$/../mallProject/target/" />
     <ignored path="$PROJECT_DIR$/../mallProject/admin/target/" />
@@ -599,7 +572,7 @@
       <workItem from="1515719099863" duration="10136000" />
       <workItem from="1515735802867" duration="8900000" />
       <workItem from="1515924216531" duration="25139000" />
-      <workItem from="1516030781621" duration="22646000" />
+      <workItem from="1516030781621" duration="22699000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1515658759981</created>
@@ -622,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515660293215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="登录注册写完了">
+      <created>1516091311745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516091311745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -658,7 +638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84306000" />
+    <option name="totallyTimeSpent" value="84359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -739,7 +719,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="登录注册写完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录注册写完了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
