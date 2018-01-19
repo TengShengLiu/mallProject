@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper标签的namespace属性代表命名空间，使用命名空间来区分不同的mapper文件，目前的mapper可以随便写
+    注意：以后以后使用mapper代理开发DAO时，namespace会起到关键作用
+-->
+<mapper namespace="com.hwua.common.dao.MemberMapper">
+    <select id="queryMember" resultType="member" parameterType="map">
+        SELECT * FROM member WHERE mname=#{username} AND PASSWORD = #{password}
+    </select>
+
+    <insert id="insertMember" parameterType="map">
+        INSERT INTO member(MNAME,PASSWORD,TEL)VALUES (#{username},#{password},#{tel})
+    </insert>
+
+    <update id="updateMember" parameterType="map">
+        UPDATE member SET GENDER=#{gender},TEL=#{tel},EMAIL=#{email} WHERE MID = #{mid}
+    </update>
+
+    <select id="queryByName" parameterType="string" resultType="member">
+        SELECT * from member WHERE MNAME = #{username}
+    </select>
+
+    <update id="changPwd" parameterType="map">
+        UPDATE member SET PASSWORD = #{password} WHERE MID = #{mid}
+    </update>
+</mapper>

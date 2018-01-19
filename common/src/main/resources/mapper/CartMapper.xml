@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper标签的namespace属性代表命名空间，使用命名空间来区分不同的mapper文件，目前的mapper可以随便写
+    注意：以后以后使用mapper代理开发DAO时，namespace会起到关键作用
+-->
+<mapper namespace="com.hwua.common.dao.CartMapper">
+    <insert id="addToCart" parameterType="map">
+        INSERT INTO cart(mid, pid, count)VALUES (#{mid},#{pid},#{count})
+    </insert>
+
+    <select id="queryUnchecked" parameterType="map" resultType="cart">
+        SELECT * FROM cart WHERE mid = #{mid} AND pid = #{pid} AND status = 0
+    </select>
+
+    <select id="queryChecked" parameterType="int" resultType="cart">
+        SELECT * FROM cart WHERE mid = #{mid} AND status = 1
+    </select>
+
+
+    <select id="queryCount" parameterType="map" resultType="int">
+        SELECT count FROM cart WHERE mid = #{mid} AND pid = #{pid} AND status = 0;
+    </select>
+
+    <update id="updateCount" parameterType="map">
+        UPDATE cart SET count = #{count} WHERE mid = #{mid} AND pid = #{pid} AND status = 0
+    </update>
+
+    <delete id="delProductInCart" parameterType="map">
+        DELETE FROM cart WHERE mid = #{mid} AND pid = #{pid} AND status = 0
+    </delete>
+
+    <update id="updateCartType" parameterType="map">
+        UPDATE cart SET type = #{type} WHERE mid = #{mid} AND pid = #{pid} AND status = 0
+    </update>
+</mapper>
