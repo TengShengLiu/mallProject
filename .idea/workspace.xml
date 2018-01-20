@@ -6,30 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/dataSources/30657d91-d724-4518-b058-1632a85ae6e8.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/dataSources/30657d91-d724-4518-b058-1632a85ae6e8.xml" />
+    <list default="true" id="4a5ea41c-8513-4106-8899-561b2f4d6c59" name="Default" comment="下订单写完了">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mallProject/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/CartMapper.java" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/CartMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/MemberMapper.java" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/MemberMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/ProductQueryMapper.java" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/java/com/hwua/common/dao/ProductQueryMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/CartMapper.xml" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/CartMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/MemberMapper.xml" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/MemberMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/ProductQueryMapper.xml" afterPath="$PROJECT_DIR$/../mallProject/common/src/main/resources/mapper/ProductQueryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/controller/CartController.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/controller/CartController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/listener/ProductInit.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/listener/ProductInit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/CartService.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/CartService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/MemberService.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/MemberService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/ProductService.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/CartServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/MemberServiceImpl.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/MemberServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/java/com/hwua/front/serviceImpl/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/dingdanzhongxin.jsp" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/dingdanzhongxin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/gouwuche.jsp" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/gouwuche.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/xiangqing.jsp" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/WEB-INF/views/xiangqing.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/css/style.css" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/gouwuche.js" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/gouwuche.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/xiangqing.js" afterPath="$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/xiangqing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mallProject/front/src/test/java/test/MethodTest.java" afterPath="$PROJECT_DIR$/../mallProject/front/src/test/java/test/MethodTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../mallProject/out/" />
     <ignored path="$PROJECT_DIR$/../mallProject/target/" />
@@ -84,8 +62,8 @@
       <file leaf-file-name="xiangqing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/xiangqing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="139">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -986,7 +964,7 @@
       <workItem from="1516254514028" duration="13001000" />
       <workItem from="1516324144335" duration="10488000" />
       <workItem from="1516341155206" duration="14958000" />
-      <workItem from="1516366572840" duration="27311000" />
+      <workItem from="1516366572840" duration="27449000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1515658759981</created>
@@ -1058,7 +1036,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516342512730</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="下订单写完了">
+      <created>1516439334168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516439334168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1094,7 +1079,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187534000" />
+    <option name="totallyTimeSpent" value="187672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1144,7 +1129,8 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="登录注册写完了" />
     <MESSAGE value="购物车完成了" />
-    <option name="LAST_COMMIT_MESSAGE" value="购物车完成了" />
+    <MESSAGE value="下订单写完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="下订单写完了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1169,6 +1155,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="225" column="64" lean-forward="false" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,8 +1610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mallProject/front/src/main/webapp/static/js/xiangqing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="139">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>

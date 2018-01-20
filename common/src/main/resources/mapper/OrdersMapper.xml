@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper标签的namespace属性代表命名空间，使用命名空间来区分不同的mapper文件，目前的mapper可以随便写
+    注意：以后以后使用mapper代理开发DAO时，namespace会起到关键作用
+-->
+<mapper namespace="com.hwua.common.dao.OrdersMapper">
+    <insert id="addNewOrder" parameterType="int">
+      INSERT INTO orders(mid,date)VALUES (#{mid},sysdate())
+    </insert>
+
+    <select id="QueryMaxId" parameterType="int" resultType="int">
+        SELECT max(id) id FROM orders WHERE mid = #{mid}
+    </select>
+</mapper>
