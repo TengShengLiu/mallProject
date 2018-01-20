@@ -20,7 +20,6 @@ public class ProductInit implements ServletContextListener {
         List<Product> products = bean.getAll();
         System.out.println("products = " + products);
         servletContext.setAttribute("products",products);
-
     }
 
     public void contextDestroyed(ServletContextEvent servletContextEvent) {

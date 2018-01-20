@@ -5,13 +5,16 @@ import com.hwua.common.po.Cart;
 import com.hwua.common.po.Member;
 import com.hwua.common.po.Product;
 import com.hwua.front.service.CartService;
+import com.hwua.front.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/cart")
@@ -19,6 +22,9 @@ public class CartController {
 
     @Autowired
     private CartService cartService;
+    @Autowired
+    private ProductService productService;
+
 
 
     //添加到购物车
@@ -109,18 +115,28 @@ public class CartController {
         return jsonObject.toJSONString();
     }
 
-    //购物车点击  去结算  跳到  结算页面
+    //购物车点击  去结算  跳到  结算页面,查询待结算的商品信息及价格等
     @RequestMapping(value = "/balance",produces = "application/json;charset=utf-8")
-    @ResponseBody
-    public String balance(int mid){
-
-
-        JSONObject jsonObject = new JSONObject();
-
-
-
-
-        return jsonObject.toJSONString();
+    public ModelAndView balance(HttpSession session){
+        Member member = (Member) session.getAttribute("member");
+        Integer mid = member.getMid();
+        List<Map<String, Object>> balanceList = productService.getType0(mid);
+        System.out.println("balanceList = " + balanceList);
+        ModelAndView view = new ModelAndView();
+        int total = 0;
+        int i;
+        for (i=0;i<balanceList.size();i++){
+            Map<String, Object> map1 = balanceList.get(i);
+            Integer count = (Integer) map1.get("count");
+            Integer selprice = (Integer) map1.get("SELPRICE");
+            total += (count*selprice);
+        }
+        view.addObject("balanceList",balanceList);
+        view.addObject("total",total);
+        session.setAttribute("total",total);
+        view.addObject("i",i);
+        view.setViewName("balance");
+        return view;
     }
 
 

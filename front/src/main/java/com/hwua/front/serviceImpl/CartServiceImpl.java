@@ -66,4 +66,21 @@ public class CartServiceImpl implements CartService {
         return cartMapper.updateCartType(map);
     }
 
+    public List<Integer> getCartId(int mid) {
+        Map<String, Object> map = new HashMap<String,Object>();
+        map.put("mid",mid);
+        return cartMapper.queryCartId(map);
+    }
+
+    public int updateStatus(List<Integer> params) {
+        return cartMapper.updateStatus(params);
+    }
+
+    public List<Map<String, Integer>> getCartPidCount(int mid) {
+        Map<String, Object> map = new HashMap<String,Object>();
+        map.put("mid",mid);
+        return cartMapper.queryCartPidCount(map);
+    }
+
+
 }

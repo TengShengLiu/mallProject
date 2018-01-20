@@ -29,4 +29,8 @@
         SELECT * from cart,product
         WHERE cart.pid = product.pid AND status = 0 AND type = 0 AND mid = #{mid}
     </select>
+
+    <update id="updateInventory" parameterType="map">
+        UPDATE product SET INVENTORY = INVENTORY - #{count},SELLNUMBER = SELLNUMBER + #{count} WHERE pid = #{pid}
+    </update>
 </mapper>

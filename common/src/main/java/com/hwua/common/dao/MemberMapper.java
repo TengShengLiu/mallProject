@@ -15,4 +15,6 @@ public interface MemberMapper {
     public Member queryByName(String name);
 
     public int changPwd(Map<String, Object> params);
+
+    public int updateAccount(Map<String,Object> params);
 }

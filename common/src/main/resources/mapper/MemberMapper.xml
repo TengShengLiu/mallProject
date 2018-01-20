@@ -25,4 +25,8 @@
     <update id="changPwd" parameterType="map">
         UPDATE member SET PASSWORD = #{password} WHERE MID = #{mid}
     </update>
+
+    <update id="updateAccount" parameterType="map">
+        UPDATE member SET ACCOUNT = ACCOUNT - #{expense} WHERE MID = #{mid}
+    </update>
 </mapper>

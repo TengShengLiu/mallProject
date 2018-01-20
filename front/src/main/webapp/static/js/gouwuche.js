@@ -72,25 +72,10 @@ function dropProduct(cbc) {
     })
 }
 
-function balance(param) {
-    var data = {
-        mid:$("#mid"+param).val()
-    };
-    if(confirm("是否现在结账？")==true){
-        $.ajax({
-            url:path+'/cart/balance',
-            method:'post',
-            data:data,
-            success:function (res) {
-                if(res.flag){
-                    alert(res.msg);
-                    //订单界面
-                    location = path+'/order/orders';
-                }else {
-                    alert("出现未知错误！");
-                    location.reload();
-                }
-            }
-        })
+function balance() {
+    if(confirm("是否去结算？")==true){
+        location = path+'/cart/balance';
+    }else {
+        return false;
     }
 }

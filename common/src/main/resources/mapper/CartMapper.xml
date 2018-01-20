@@ -34,4 +34,20 @@
     <update id="updateCartType" parameterType="map">
         UPDATE cart SET type = #{type} WHERE mid = #{mid} AND pid = #{pid} AND status = 0
     </update>
+
+    <select id="queryCartId" parameterType="map" resultType="int">
+        SELECT id FROM cart WHERE mid = #{mid} AND status = 0 AND type = 0
+    </select>
+
+    <select id="queryCartPidCount" parameterType="map" resultType="map">
+        SELECT cart.pid pid,count,SELPRICE price FROM cart,product WHERE cart.pid= product.pid AND mid = #{mid} AND status = 0 AND type = 0;
+    </select>
+
+
+    <update id="updateStatus" parameterType="list">
+        UPDATE cart SET status = 1 WHERE id IN
+        <foreach collection="list" item="row" open="(" separator="," close=")">
+            #{row}
+        </foreach>
+    </update>
 </mapper>

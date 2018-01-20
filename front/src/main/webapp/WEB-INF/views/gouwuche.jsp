@@ -106,7 +106,7 @@
 			<div class="jiesuandan mt20 center">
 				<div class="tishi fl ml20">
 					<ul>
-						<li><a href="${path}/member/toMain">继续购物</a></li>
+						<li><a href="${path}/toMain">继续购物</a></li>
 						<li>|</li>
 						<li>共<span>${num}</span>件商品，已选择<span>${requestScope.i}</span>件</li>
 						<div class="clear"></div>
@@ -114,7 +114,7 @@
 				</div>
 				<div class="jiesuan fr">
 					<div class="jiesuanjiage fl">合计（不含运费）：<span>${requestScope.total}元</span></div>
-					<div class="jsanniu fr"><input class="jsan" type="button" name="jiesuan" onclick="balance(${abc.count})" value="去结算"/></div>
+					<div class="jsanniu fr"><input class="jsan" type="button" name="jiesuan" onclick="balance()" value="去结算"/></div>
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>

@@ -46,4 +46,6 @@ public interface MemberService {
      * @return
      */
     public int changPwd(String password, int mid);
+
+    public int updateAccount(int mid,double expense);
 }

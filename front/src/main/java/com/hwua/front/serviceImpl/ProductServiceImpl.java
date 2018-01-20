@@ -6,6 +6,7 @@ import com.hwua.front.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -33,5 +34,9 @@ public class ProductServiceImpl implements ProductService {
 
     public List<Map<String, Object>> getType0(int mid) {
         return productQuery.queryType0(mid);
+    }
+
+    public int updateInventory(Map<String,Integer> params) {
+        return productQuery.updateInventory(params);
     }
 }

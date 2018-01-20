@@ -15,4 +15,6 @@ public interface ProductService {
     public List<Product> search(String info);
 
     public List<Map<String,Object>> getType0(int mid);
+
+    public int updateInventory(Map<String,Integer> params);
 }

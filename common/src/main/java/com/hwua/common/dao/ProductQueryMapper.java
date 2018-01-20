@@ -15,4 +15,6 @@ public interface ProductQueryMapper {
     public List<Product> fuzzySearch(String info);
 
     public List<Map<String,Object>> queryType0(int mid);
+
+    public int updateInventory(Map<String,Integer> params);
 }

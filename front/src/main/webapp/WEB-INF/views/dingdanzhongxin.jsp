@@ -5,6 +5,23 @@
 		<meta charset="UTF-8">
 		<title>小米商城-个人中心</title>
 		<link rel="stylesheet" type="text/css" href="${path}/static/css/style.css">
+		<style type="text/css">
+			.page{
+				text-align: center;
+				margin-top: 50px;
+			}
+			.page a,.page span {
+				text-decoration: none;
+				border: 1px solid #000000;
+				padding: 5px 7px;
+				color: #000000;
+				cursor: pointer;
+			}
+			.page a:hover,.page span:hover{
+				color: red;
+			}
+
+		</style>
 	</head>
 	<body>
 	<!-- start header -->
@@ -108,7 +125,7 @@
 		<div class="rtcont fr">
 			<div class="ddzxbt">交易订单</div>
 			<div class="ddxq">
-				<div class="ddspt fl"><img src="./image/gwc_xiaomi6.jpg" alt=""></div>
+				<div class="ddspt fl"><img src="${path}/static/image/gwc_xiaomi6.jpg" alt=""></div>
 				<div class="ddbh fl">订单号:1705205643098724</div>
 				<div class="ztxx fr">
 					<ul>
@@ -121,8 +138,9 @@
 				</div>
 				<div class="clear"></div>
 			</div>
+
 			<div class="ddxq">
-				<div class="ddspt fl"><img src="./image/liebiao_hongmin4_dd.jpg" alt=""></div>
+				<div class="ddspt fl"><img src="${path}/static/image/liebiao_hongmin4_dd.jpg" alt=""></div>
 				<div class="ddbh fl">订单号:170526435444865</div>
 				<div class="ztxx fr">
 					<ul>
@@ -134,6 +152,50 @@
 					</ul>
 				</div>
 				<div class="clear"></div>
+			</div>
+
+
+
+
+			<div class="ddxq">
+				<div class="ddspt fl"><img src="${path}/static/image/gwc_xiaomi6.jpg" alt=""></div>
+				<div class="ddbh fl">订单号:1705205643098724</div>
+				<div class="ztxx fr">
+					<ul>
+						<li>已发货</li>
+						<li>￥2499.00</li>
+						<li>2017/05/20 13:30</li>
+						<li><a href="">订单详情></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+
+
+			<div class="ddxq">
+				<div class="ddspt fl"><img src="${path}/static/image/liebiao_hongmin4_dd.jpg" alt=""></div>
+				<div class="ddbh fl">订单号:170526435444865</div>
+				<div class="ztxx fr">
+					<ul>
+						<li>已发货</li>
+						<li>￥1999.00</li>
+						<li>2017/05/26 14:02</li>
+						<li><a href="">订单详情></a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="page">
+				<span><a>上一页</a></span>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<span><a>下一页</a></span>
 			</div>
 		</div>
 		<div class="clear"></div>

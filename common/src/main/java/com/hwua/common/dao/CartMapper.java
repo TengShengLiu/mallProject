@@ -19,4 +19,13 @@ public interface CartMapper {
     public int delProductInCart(Map<String,Integer> params);
 
     public int updateCartType(Map<String,Integer> params);
+
+    public List<Integer> queryCartId(Map<String,Object> params);
+
+    public List<Map<String,Integer>> queryCartPidCount(Map<String,Object> params);
+
+    public int updateStatus(List<Integer> params);
+
+
+
 }

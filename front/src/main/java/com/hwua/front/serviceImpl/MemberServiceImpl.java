@@ -50,4 +50,11 @@ public class MemberServiceImpl implements MemberService {
         map.put("mid",mid);
         return memberMapper.changPwd(map);
     }
+
+    public int updateAccount(int mid, double expense) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("mid",mid);
+        map.put("expense",expense);
+        return memberMapper.updateAccount(map);
+    }
 }
