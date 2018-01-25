@@ -33,8 +33,8 @@
 
 				<div class="top1 center">
 					<div class="sub_top fl">地址：</div>
-					<div class="sub_top fl">山东省济南市长清市大学路xxx号</div>
-					<div class="sub_top fr"><a href="">地址编辑</a></div>
+					<div class="sub_top fl">${requestScope.addr}</div>
+					<div class="sub_top fr"><a href="" onclick="changeAddr()">地址编辑</a></div>
 					<div class="clear"></div>
 					<hr/>
 				</div>

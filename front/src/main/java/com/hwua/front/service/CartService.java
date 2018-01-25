@@ -26,6 +26,8 @@ public interface CartService {
 
     public List<Map<String,Integer>> getCartPidCount(int mid);
 
+    public List<Map<String,Object>> getStatus0(int mid);
+
 }
 
 

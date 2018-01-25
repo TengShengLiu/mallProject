@@ -1,10 +1,11 @@
 package test;
 
-import com.hwua.common.dao.CartMapper;
-import com.hwua.common.dao.OrderDetailsMapper;
-import com.hwua.common.dao.OrdersMapper;
-import com.hwua.common.dao.ProductQueryMapper;
+import com.hwua.common.dao.*;
+import com.hwua.common.po.*;
+import com.hwua.front.controller.OrdersController;
 import com.hwua.front.service.MemberService;
+import com.hwua.front.service.OrderDetailService;
+import com.hwua.front.service.OrderService;
 import com.hwua.front.service.ProductService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -109,10 +110,30 @@ public class MethodTest {
 
     @Test
     public void testMethod111(){
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("Spring.xml");
-        MemberService bean = ctx.getBean(MemberService.class);
-        int i = bean.updateAccount(7, 1000);
-        System.out.println("i = " + i);
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        UserMapper bean = ctx.getBean(UserMapper.class);
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("uname","admin");
+        map.put("password","123456");
+        User user = bean.queryUser(map);
+        System.out.println("user = " + user);
+
+    }
+
+
+
+    @Test
+    public void testMethod1111(){
+       /* ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        ProductQueryMapper bean = ctx.getBean(ProductQueryMapper.class);
+        List<Product> products = bean.queryMainInfo();
+        System.out.println("products = " + products);*/
+        /*List<Category> categories = bean.initQueryAll();
+        System.out.println("categories = " + categories);*/
+
+        int i = 15;
+        int j = 5;
+        System.out.println(i/j);
 
     }
 

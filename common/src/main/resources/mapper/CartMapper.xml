@@ -14,6 +14,8 @@
         SELECT * FROM cart WHERE mid = #{mid} AND pid = #{pid} AND status = 0
     </select>
 
+
+
     <select id="queryChecked" parameterType="int" resultType="cart">
         SELECT * FROM cart WHERE mid = #{mid} AND status = 1
     </select>
@@ -50,4 +52,9 @@
             #{row}
         </foreach>
     </update>
+
+    <select id="queryStatus0" parameterType="int" resultType="map">
+        SELECT * FROM cart,product WHERE cart.pid = product.pid AND mid = #{mid} AND status = 0
+    </select>
+
 </mapper>

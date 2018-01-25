@@ -11,15 +11,5 @@
       <user-name>mall</user-name>
       <introspection-schemas>*:mall</introspection-schemas>
     </data-source>
-    <data-source name="ssm@localhost" uuid="14885a2b-b60c-4393-9400-451e059ac045">
-      <database-info product="MySQL" version="5.5.55" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>ssm</user-name>
-      <introspection-schemas>*:ssm</introspection-schemas>
-    </data-source>
   </component>
 </project>

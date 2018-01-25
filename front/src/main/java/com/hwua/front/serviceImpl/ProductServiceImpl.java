@@ -1,6 +1,7 @@
 package com.hwua.front.serviceImpl;
 
 import com.hwua.common.dao.ProductQueryMapper;
+import com.hwua.common.po.Category;
 import com.hwua.common.po.Product;
 import com.hwua.front.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,8 +29,16 @@ public class ProductServiceImpl implements ProductService {
         return productQuery.queryByMid(mid);
     }
 
-    public List<Product> search(String info) {
-        return productQuery.fuzzySearch(info);
+    public List<Product> search(String info,int start,int pageSize) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("info",info);
+        map.put("start",start);
+        map.put("pageSize",pageSize);
+        return productQuery.fuzzySearch(map);
+    }
+
+    public List<Product> pageNum(String info) {
+        return productQuery.pageNum(info);
     }
 
     public List<Map<String, Object>> getType0(int mid) {
@@ -38,5 +47,13 @@ public class ProductServiceImpl implements ProductService {
 
     public int updateInventory(Map<String,Integer> params) {
         return productQuery.updateInventory(params);
+    }
+
+    public List<Category> initInfo() {
+        return productQuery.initQueryAll();
+    }
+
+    public List<Product> getMainInfo() {
+        return productQuery.queryMainInfo();
     }
 }

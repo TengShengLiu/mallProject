@@ -72,10 +72,14 @@ function dropProduct(cbc) {
     })
 }
 
-function balance() {
-    if(confirm("是否去结算？")==true){
-        location = path+'/cart/balance';
+function balance(dbc) {
+    if(dbc == 0){
+        alert("没买东西能结算吗？显然不能！");
     }else {
-        return false;
+        if(confirm("是否去结算？")==true){
+            location = path+'/cart/balance';
+        }else {
+            return false;
+        }
     }
 }

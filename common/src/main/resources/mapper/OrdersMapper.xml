@@ -13,4 +13,18 @@
     <select id="QueryMaxId" parameterType="int" resultType="int">
         SELECT max(id) id FROM orders WHERE mid = #{mid}
     </select>
+
+    <select id="queryAll" parameterType="int" resultType="orders">
+        SELECT * FROM orders WHERE mid = #{mid}
+    </select>
+
+    <select id="queryUnsend" resultType="map" parameterType="int">
+        SELECT * FROM orders,order_details,product WHERE orders.id = order_details.oid
+        AND order_details.pid = product.pid AND mid = #{mid} AND status = 0
+    </select>
+
+    <select id="queryUnReceive" resultType="map" parameterType="int">
+        SELECT * FROM orders,order_details,product WHERE orders.id = order_details.oid
+        AND order_details.pid = product.pid AND mid = #{mid} AND status = 1
+    </select>
 </mapper>

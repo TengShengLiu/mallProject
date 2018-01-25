@@ -26,6 +26,6 @@ public interface CartMapper {
 
     public int updateStatus(List<Integer> params);
 
-
+    public List<Map<String,Object>> queryStatus0(int mid);
 
 }

@@ -82,5 +82,9 @@ public class CartServiceImpl implements CartService {
         return cartMapper.queryCartPidCount(map);
     }
 
+    public List<Map<String, Object>> getStatus0(int mid) {
+        return cartMapper.queryStatus0(mid);
+    }
+
 
 }

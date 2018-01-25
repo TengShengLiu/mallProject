@@ -5,6 +5,29 @@
 		<meta charset="UTF-8">
 		<title>小米手机列表</title>
 		<link rel="stylesheet" type="text/css" href="${path}/static/css/style.css">
+		<script type="text/javascript" src="${path}/static/js/liebiao.js"></script>
+		<style type="text/css">
+			.page{
+				text-align: center;
+				margin-top: 50px;
+				float: right;
+			}
+			.page a,.page span {
+				text-decoration: none;
+				border: 1px solid #83c44e;
+				padding: 5px 7px;
+				color: #83c44e;
+				cursor: pointer;
+			}
+			.page a:hover,.page span:hover{
+				color: red;
+			}
+
+			hr{
+				margin: 2px;
+			}
+
+		</style>
 	</head>
 	<body>
 
@@ -12,7 +35,7 @@
 	<!-- start danpin -->
 		<div class="danpin center">
 
-			<div class="biaoti center">小米手机</div>
+			<div class="biaoti center">小米</div>
 			<div class="main center">
 
 				<c:forEach items="${requestScope.products}" var="product">
@@ -91,7 +114,20 @@
 
 				<div class="clear"></div>--%>
 
+				<div class="page">
+					<span><a>翻页</a></span>
 
+
+					<c:forEach varStatus="status" begin="1" end="${requestScope.pageNum}">
+						<a href="#" onclick="page(${status.count})" id="pageNum${status.count}">${status.count}</a>
+					</c:forEach>
+
+					<%--<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>--%>
+					<%--<span><a>下一页</a></span>--%>
+				</div>
 			</div>
 		</div>
 

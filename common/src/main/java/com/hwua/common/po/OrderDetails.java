@@ -7,6 +7,7 @@ public class OrderDetails {
     private Integer count;
     private Integer price;
 
+
     public OrderDetails() {
     }
 

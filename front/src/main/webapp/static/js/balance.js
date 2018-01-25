@@ -6,3 +6,7 @@ function balance(a,b) {
         return false;
     }
 }
+function changeAddr() {
+
+
+}

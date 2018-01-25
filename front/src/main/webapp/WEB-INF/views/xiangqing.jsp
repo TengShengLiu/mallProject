@@ -14,7 +14,7 @@
 	<form action="post" method="">
 	<div class="xiangqing">
 		<div class="neirong w">
-			<div class="xiaomi6 fl">小米6</div>
+			<div class="xiaomi6 fl">${requestScope.product.pName}</div>
 			<nav class="fr">
 				<li><a href="">概述</a></li>
 				<li>|</li>
@@ -39,6 +39,7 @@
 			<div class="h3 ml20 mt20">${requestScope.product.pName}</div>
 			<div class="jianjie mr40 ml20 mt10">${requestScope.product.comments}</div>
 			<div class="jiage ml20 mt10">￥${requestScope.product.selPrice}</div>
+			<div class="jiage ml20 mt10" style="color: #83c44e">库存：${requestScope.product.inventory}件</div>
 			<input hidden="hidden" name="pid" id="pid" value="${requestScope.product.pid}">
 
 
@@ -72,10 +73,10 @@
 			<div class="xqxq mt20 ml20">
 				<div class="top1 mt10">
 					<div class="left1 fl">数量：</div>
-					<div class="right1 fr"><input class="shuliang" id="count" type="number" value="1" step="1" min="1"/></div>
+					<div class="right1 fr"><input class="shuliang" id="count" onchange="number(${requestScope.product.selPrice})" type="number" value="1" step="1" min="1"/></div>
 					<div class="clear"></div>
 				</div>
-				<div class="bot mt20 ft20 ftbc">总计：2499元</div>
+				<div class="bot mt20 ft20 ftbc">总计：<span id="zongjia">${requestScope.product.selPrice}</span>元</div>
 			</div>
 			<div class="xiadan ml20 mt20">
 					<input class="jrgwc"  type="button" name="jrgwc" value="立即选购" onclick="shop()"/>

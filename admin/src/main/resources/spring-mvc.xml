@@ -23,11 +23,25 @@
     <mvc:default-servlet-handler />
     <!--访问竟在资源-->
     <mvc:resources mapping="/static" location="static/"/>
+    <mvc:resources mapping="/lib" location="lib/"/>
+    <mvc:resources mapping="/temp" location="temp/"/>
     <!--开启注释配置-->
     <mvc:annotation-driven/>
 
     <!--标签配置controller-->
-    <mvc:view-controller path="/hello" view-name="main"/>
+    <mvc:view-controller path="/toMain" view-name="admin-list"/>
+    <mvc:view-controller path="/toMain2" view-name="admin-permission"/>
+    <mvc:view-controller path="/toMain3" view-name="admin-role"/>
+    <mvc:view-controller path="/toMain4" view-name="member-list"/>
+    <mvc:view-controller path="/toMain5" view-name="picture-list"/>
+    <mvc:view-controller path="/toMain6" view-name="product-category"/>
+    <mvc:view-controller path="/toMain7" view-name="product-list"/>
+    <!--<mvc:view-controller path="/common" view-name="common"/>-->
+
+    <!--<mvc:view-controller path="/user/memberShow" view-name="member-show"/>-->
+
+
+    <!--<mvc:view-controller path="/user/addProduct" view-name="product-add"/>-->
 
     <!--
     拦截器配置之后，配置访问静态资源

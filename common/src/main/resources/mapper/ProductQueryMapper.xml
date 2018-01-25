@@ -7,7 +7,7 @@
 -->
 <mapper namespace="com.hwua.common.dao.ProductQueryMapper">
     <select id="queryAll" resultType="product">
-        SELECT * FROM product
+        SELECT * FROM product ORDER BY SELLNUMBER DESC LIMIT 0,5
     </select>
 
 
@@ -21,7 +21,11 @@
         WHERE cart.pid = product.pid AND status = 0 AND mid = #{mid}
     </select>
 
-    <select id="fuzzySearch" parameterType="string" resultType="product">
+    <select id="fuzzySearch" parameterType="map" resultType="product">
+        SELECT * FROM product WHERE searchInfo LIKE concat('%',#{info},'%') LIMIT #{start},#{pageSize}
+    </select>
+
+    <select id="pageNum" parameterType="string" resultType="product">
         SELECT * FROM product WHERE searchInfo LIKE concat('%',#{info},'%')
     </select>
 
@@ -33,4 +37,60 @@
     <update id="updateInventory" parameterType="map">
         UPDATE product SET INVENTORY = INVENTORY - #{count},SELLNUMBER = SELLNUMBER + #{count} WHERE pid = #{pid}
     </update>
+
+
+
+    <select id="queryMainInfo" resultType="product">
+        SELECT * FROM product
+    </select>
+
+
+    <select id="initQueryAll" resultType="category">
+        SELECT * FROM category;
+    </select>
+
+    <select id="queryAllProducts" resultType="product">
+        SELECT * FROM product WHERE PROSTATUS NOT IN (2)
+    </select>
+
+
+    <select id="queryPhone" resultType="product">
+        SELECT * FROM product WHERE cid = 1
+    </select>
+
+    <select id="queryTV" resultType="product">
+        SELECT * FROM product WHERE cid = 2
+    </select>
+
+
+   <insert id="addNewProduct" parameterType="map">
+       INSERT INTO product(pname, cid, bid, SELPRICE, DISCOUNT, PURPRICE, INVENTORY, searchInfo,
+                           intro, COMMENTS, URL, ADDDATE) VALUES (
+               #{pname},#{cid},#{bid},#{selprice},#{discount},#{purprice},#{inventory},#{searchInfo},#{intro}
+           ,#{comments},#{url},sysdate()
+       )
+   </insert>
+
+    <update id="reSetProStatus1" parameterType="int">
+        UPDATE product SET PROSTATUS = 1 WHERE pid = #{pid}
+    </update>
+
+    <update id="reSetProStatus0" parameterType="int">
+        UPDATE product SET PROSTATUS = 0 WHERE pid = #{pid}
+    </update>
+
+    <update id="reSetProStatus2" parameterType="int">
+        UPDATE product SET PROSTATUS = 2 WHERE pid = #{pid}
+    </update>
+
+    <update id="updateProduct" parameterType="product">
+        UPDATE product SET pname = #{pName},cid = #{cid},bid = #{bid},SELPRICE = #{selPrice},
+            DISCOUNT=#{discount},PURPRICE=#{purPrice},INVENTORY = #{inventory},searchInfo = #{searchInfo},
+            intro=#{intro},COMMENTS=#{comments},URL=#{url} WHERE pid = #{pid}
+    </update>
+
+
+
+
+
 </mapper>

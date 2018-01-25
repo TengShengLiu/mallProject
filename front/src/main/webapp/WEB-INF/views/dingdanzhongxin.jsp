@@ -9,6 +9,7 @@
 			.page{
 				text-align: center;
 				margin-top: 50px;
+				float: right;
 			}
 			.page a,.page span {
 				text-decoration: none;
@@ -21,83 +22,14 @@
 				color: red;
 			}
 
+			hr{
+				margin: 2px;
+			}
+
 		</style>
 	</head>
 	<body>
-	<!-- start header -->
-		<header>
-			<div class="top center">
-				<div class="left fl">
-					<ul>
-						<li><a href="http://www.mi.com/" target="_blank">小米商城</a></li>
-						<li>|</li>
-						<li><a href="">MIUI</a></li>
-						<li>|</li>
-						<li><a href="">米聊</a></li>
-						<li>|</li>
-						<li><a href="">游戏</a></li>
-						<li>|</li>
-						<li><a href="">多看阅读</a></li>
-						<li>|</li>
-						<li><a href="">云服务</a></li>
-						<li>|</li>
-						<li><a href="">金融</a></li>
-						<li>|</li>
-						<li><a href="">小米商城移动版</a></li>
-						<li>|</li>
-						<li><a href="">问题反馈</a></li>
-						<li>|</li>
-						<li><a href="">Select Region</a></li>
-						<div class="clear"></div>
-					</ul>
-				</div>
-				<div class="right fr">
-					<div class="gouwuche fr"><a href="">我的订单</a></div>
-					<div class="fr">
-						<ul>
-							<li><a href="./login.html" target="_blank">登录</a></li>
-							<li>|</li>
-							<li><a href="./register.html" target="_blank" >注册</a></li>
-							<li>|</li>
-							<li><a href="./self_info.html">个人中心</a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</div>
-		</header>
-	<!--end header -->
-	<!-- start banner_x -->
-		<div class="banner_x center">
-			<a href="./index.html" target="_blank"><div class="logo fl"></div></a>
-			<a href=""><div class="ad_top fl"></div></a>
-			<div class="nav fl">
-				<ul>
-					<li><a href="">小米手机</a></li>
-					<li><a href="">红米</a></li>
-					<li><a href="">平板·笔记本</a></li>
-					<li><a href="">电视</a></li>
-					<li><a href="">盒子·影音</a></li>
-					<li><a href="">路由器</a></li>
-					<li><a href="">智能硬件</a></li>
-					<li><a href="">服务</a></li>
-					<li><a href="">社区</a></li>
-				</ul>
-			</div>
-			<div class="search fr">
-				<form action="" method="post">
-					<div class="text fl">
-						<input type="text" class="shuru"  placeholder="小米6&nbsp;小米MIX现货">
-					</div>
-					<div class="submit fl">
-						<input type="submit" class="sousuo" value="搜索"/>
-					</div>
-					<div class="clear"></div>
-				</form>
-				<div class="clear"></div>
-			</div>
-		</div>
+	<%@include file="head.jsp"%>
 <!-- end banner_x -->
 <!-- self_info -->
 	<div class="grzxbj">
@@ -106,16 +38,16 @@
 			<div class="ddzx">订单中心</div>
 			<div class="subddzx">
 				<ul>
-					<li><a href="" style="color:#ff6700;font-weight:bold;">我的订单</a></li>
-					<li><a href="">意外保</a></li>
-					<li><a href="">团购订单</a></li>
-					<li><a href="">评价晒单</a></li>
+					<li><a href="${path}/orders/getAll" style="color:#ff6700;font-weight:bold;">全部订单</a></li>
+					<li><a href="${path}/cart/getUnPay">待付款</a></li>
+					<li><a href="${path}/orders/getUnSend">待发货</a></li>
+					<li><a href="${path}/orders/getUnReceive">待签收</a></li>
 				</ul>
 			</div>
 			<div class="ddzx">个人中心</div>
 			<div class="subddzx">
 				<ul>
-					<li><a href="./self_info.html">我的个人中心</a></li>
+					<li><a href="${path}/product/selfInfo">我的个人中心</a></li>
 					<li><a href="">消息通知</a></li>
 					<li><a href="">优惠券</a></li>
 					<li><a href="">收货地址</a></li>
@@ -124,7 +56,46 @@
 		</div>
 		<div class="rtcont fr">
 			<div class="ddzxbt">交易订单</div>
-			<div class="ddxq">
+
+
+			<c:forEach items="${requestScope.orders}" var="order" >
+				<div class="ddxq">
+					<c:forEach items="${requestScope.orderDetails}" var="orderDetail">
+						<c:if test="${order.id == orderDetail.oid}">
+						<%--<div class="ddspt fl"><img src="${path}/${orderDetail.url}" alt=""></div>--%>
+						<div class="ddbh fl">订单号:${order.id}</div>
+						<div class="ztxx fr">
+							<ul>
+								<c:choose>
+									<c:when test="${order.status == 0}">
+										<li>未发货</li>
+									</c:when>
+									<c:when test="${order.status == 1}">
+										<li>已发货，待签收</li>
+									</c:when>
+									<c:when test="${order.status == 2}">
+										<li>已签收</li>
+									</c:when>
+								</c:choose>
+
+
+								<li>￥${orderDetail.price}</li>
+								<li>${order.date}</li>
+								<li><a href="">订单详情></a></li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+						<div class="clear"></div>
+						</c:if>
+					</c:forEach>
+					<hr/>
+				</div>
+			</c:forEach>
+
+
+
+
+			<%--<div class="ddxq">
 				<div class="ddspt fl"><img src="${path}/static/image/gwc_xiaomi6.jpg" alt=""></div>
 				<div class="ddbh fl">订单号:1705205643098724</div>
 				<div class="ztxx fr">
@@ -153,27 +124,7 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-
-
-
-
-			<div class="ddxq">
-				<div class="ddspt fl"><img src="${path}/static/image/gwc_xiaomi6.jpg" alt=""></div>
-				<div class="ddbh fl">订单号:1705205643098724</div>
-				<div class="ztxx fr">
-					<ul>
-						<li>已发货</li>
-						<li>￥2499.00</li>
-						<li>2017/05/20 13:30</li>
-						<li><a href="">订单详情></a></li>
-						<div class="clear"></div>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</div>
-
-
-
+			<hr/>
 			<div class="ddxq">
 				<div class="ddspt fl"><img src="${path}/static/image/liebiao_hongmin4_dd.jpg" alt=""></div>
 				<div class="ddbh fl">订单号:170526435444865</div>
@@ -187,7 +138,11 @@
 					</ul>
 				</div>
 				<div class="clear"></div>
-			</div>
+			</div>--%>
+
+
+
+
 
 			<div class="page">
 				<span><a>上一页</a></span>
@@ -197,7 +152,9 @@
 				<a href="#">4</a>
 				<span><a>下一页</a></span>
 			</div>
+
 		</div>
+
 		<div class="clear"></div>
 		</div>
 	</div>

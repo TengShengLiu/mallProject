@@ -8,6 +8,7 @@ public class Product {
     private Integer cid;
     private Integer bid;
     private Integer selPrice;
+    private Integer discount;
     private Integer purPrice;
     private Integer inventory;
     private String searchInfo;
@@ -29,6 +30,7 @@ public class Product {
                 ", cid=" + cid +
                 ", bid=" + bid +
                 ", selPrice=" + selPrice +
+                ", discount=" + discount +
                 ", purPrice=" + purPrice +
                 ", inventory=" + inventory +
                 ", searchInfo='" + searchInfo + '\'' +
@@ -39,6 +41,15 @@ public class Product {
                 ", addDate=" + addDate +
                 ", sellNumber=" + sellNumber +
                 '}';
+    }
+
+
+    public Integer getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(Integer discount) {
+        this.discount = discount;
     }
 
     public Integer getPid() {

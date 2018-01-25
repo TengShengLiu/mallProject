@@ -15,7 +15,7 @@ function register() {
         success:function (res) {
             if(res.flag){
                 // alert("注册成功，点击跳转到主界面");
-                location = path+"/member/toMain";
+                location = path+"/toMain";
             }
         }
     })

@@ -43,3 +43,8 @@ function addToCart() {
         }
     })
 }
+
+function number(abc) {
+    var value = $("#count").val();
+    $("#zongjia").html(value * abc);
+}

@@ -2,9 +2,9 @@ package com.hwua.common.dao;
 
 import com.hwua.common.po.User;
 
-import java.util.List;
+import java.util.Map;
 
 public interface UserMapper {
-    public List<User> queryAllUser();
+    public User queryUser(Map<String, Object> params);
 
 }

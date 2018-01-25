@@ -29,4 +29,13 @@
     <update id="updateAccount" parameterType="map">
         UPDATE member SET ACCOUNT = ACCOUNT - #{expense} WHERE MID = #{mid}
     </update>
+
+    <select id="queryAllMembers" resultType="map" >
+        SELECT * from member
+    </select>
+
+
+    <select id="queryByMid" resultType="member" parameterType="int">
+        SELECT * FROM member WHERE MID = #{mid}
+    </select>
 </mapper>

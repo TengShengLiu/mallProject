@@ -53,7 +53,9 @@ public class ProductController {
             System.out.println("selprice = " + selprice);
             total += (count*selprice);
         }
+        int size = type0.size();
         ModelAndView view = new ModelAndView();
+        view.addObject("size",size);
         view.addObject("i",i);
         view.addObject("products",products);
         view.addObject("total",total);

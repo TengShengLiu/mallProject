@@ -11,4 +11,9 @@
       INSERT INTO order_details(oid, pid, count, price) VALUES
           (#{oid},#{pid},#{count},#{price})
     </insert>
+
+    <select id="queryAll" parameterType="int" resultType="orderDetails">
+        SELECT * FROM order_details WHERE oid IN (SELECT id FROM orders WHERE mid = #{mid})
+    </select>
+
 </mapper>

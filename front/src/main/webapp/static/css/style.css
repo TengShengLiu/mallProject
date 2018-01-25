@@ -103,8 +103,8 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .sub_banner .datu a img:hover{opacity:1;}
 /*danpin*/
 .biaoti{width: 1226px;height: 58px;line-height: 58px;font-size: 
-22px;font-weight: bold;margin-top: 20px;}
-.danpin .main{width: 1226px;height: 340px;}
+22px;font-weight: bold;margin-top: 20px;color: #ff6709}
+.danpin .main{width: 1226px;height: 420px;}
 .danpin .main .mingxing{width: 234px;height: 339px;background: rgb(250,250,250);}
 .danpin .main .mingxing:nth-of-type(1){border-top: 1px solid orange;margin-right:14px;}
 .danpin .main .mingxing:nth-of-type(2){border-top: 1px solid green;margin-right:14px;}
@@ -217,7 +217,7 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .jiesuandan .jiesuan .jsanniu .jsan{width: 200px;height: 50px;color:#fff;background:rgb(255,103,0); font-size: 20px;border:none;cursor:pointer;}
 .jiesuandan .jiesuan .jsanniu .jsan:hover{background: rgb(242,88,7);}
 /*个人中心*/
-.grzxbj{width: 100%;height:auto;background: rgb(245,245,245);padding-bottom: 20px;padding-top: 20px;}
+.grzxbj{width: 100%;height:100%;background: rgb(245,245,245);padding-bottom: 20px;padding-top: 20px;}
 .grzxbj .selfinfo{width: 1226px;}
 .grzxbj .selfinfo .lfnav{width: 234px;height: 500px;background: #fff;}
 .grzxbj .selfinfo .lfnav .ddzx{width: 234px;height: 40px;line-height: 40px;font-size: 19px; margin:30px 20px 10px 40px;color:rgb(51,51,51);}
@@ -237,9 +237,13 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 
 /*订单中心*/
 .grzxbj .selfinfo .rtcont .ddxq{width: 938px;height: 120px;line-height: 120px;font-size: 17px;color:rgb(117,117,117); 
-	border-bottom: 1px solid #ccc;padding-left: 40px;}
+	padding-left: 40px;}
 .grzxbj .selfinfo .rtcont .ddxq .ddspt{width: 80px;height: 80px;margin: 19px 25px 0 0;border:1px solid #aaa;}
-.grzxbj .selfinfo .rtcont .ddxq .ztxx ul li{display: inline-block;width: 130px;height: 60px;line-height:60px;float: left;border-left:1px solid #aaa; margin-top: 30px;text-align: center;}
+
+
+.grzxbj .selfinfo .rtcont .ddxq .zzxx ul li{display: inline-block;width: 150px;height: 60px;line-height:60px;float: left;border-left:1px solid #aaa; margin-top: 30px;text-align: center;}
+
+.grzxbj .selfinfo .rtcont .ddxq .ztxx ul li{display: inline-block;width: 180px;height: 60px;line-height:60px;float: left;border-left:1px solid #aaa; margin-top: 30px;text-align: center;}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a{color:rgb(117,117,117);}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a:hover{color:#ff6700;}
 /*footer*/

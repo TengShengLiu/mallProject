@@ -38,10 +38,20 @@
 					<div class="gouwuche fr"><a href="${path}/product/toCart">购物车</a></div>
 					<div class="fr">
 						<ul>
-							<li><a href="${path}/login.jsp" target="_blank">登录</a></li>
-							<li>|</li>
-							<li><a href="${path}/register.jsp" target="_blank" >注册</a></li>
-							<li>|</li>
+							<c:choose>
+								<c:when test="${sessionScope.member == null}">
+									<li><a href="${path}/login.jsp" target="_blank">登录</a></li>
+									<li>|</li>
+									<li><a href="${path}/register.jsp" target="_blank" >注册</a></li>
+									<li>|</li>
+								</c:when>
+								<c:otherwise>
+									<li>|</li>
+									<li><a href="${path}/orders/getAll" target="_blank" >个人中心</a></li>
+									<li>|</li></c:otherwise>
+							</c:choose>
+
+
 							<li><a href="">消息通知</a></li>
 						</ul>
 					</div>
@@ -54,7 +64,7 @@
 
 <!-- start banner_x -->
 		<div class="banner_x center">
-			<a href="/member/toMain" target="_blank"><div class="logo fl"></div></a>
+			<a href="${path}/toMain" target="_blank"><div class="logo fl"></div></a>
 			<a href=""><div class="ad_top fl"></div></a>
 			<div class="nav fl">
 				<ul>
@@ -70,9 +80,9 @@
 				</ul>
 			</div>
 			<div class="search fr">
-				<form action="${path}/search" method="post">
+				<form action="${path}/search/search" method="post">
 					<div class="text fl">
-						<input type="text" class="shuru" name="info" placeholder="小米6&nbsp;小米MIX现货">
+						<input type="text" id="pageInfo" class="shuru" value="${requestScope.info}" name="info" placeholder="小米6&nbsp;小米MIX现货">
 					</div>
 					<div class="submit fl">
 						<input type="submit" class="sousuo" value="搜索"/>

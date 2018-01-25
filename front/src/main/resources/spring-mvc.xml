@@ -36,6 +36,7 @@
     <!--标签配置controller-->
     <!--<mvc:view-controller path="/member/toMain" view-name="main"/>-->
     <mvc:view-controller path="/toMain" view-name="main"/>
+    <mvc:view-controller path="/product/selfInfo" view-name="self_info"/>
 
     <!--
     拦截器配置之后，配置访问静态资源
@@ -47,8 +48,12 @@
             <mvc:exclude-mapping path="/user/login"/>
             <mvc:exclude-mapping path="/member/**"/>
             <mvc:exclude-mapping path="/toMain"/>
+
+            <mvc:exclude-mapping path="/toOrders"/>
+
             <mvc:exclude-mapping path="/search"/>
-            <mvc:exclude-mapping path="/product/**"/>
+            <mvc:exclude-mapping path="/search/**"/>
+            <mvc:exclude-mapping path="/product/getProductInfo"/>
             <ref bean="loginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>

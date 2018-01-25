@@ -13,7 +13,42 @@
 		<div class="banner_y center">
 			<div class="nav">
 				<ul>
-					<li>
+
+
+					<c:forEach items="${applicationScope.categories}" var="category">
+                        <li>
+						<a href="">${category.name}</a>
+						<div class="pop">
+							<div class="left fl">
+
+                                <c:forEach items="${applicationScope.mainInfos}" var="mainInfo">
+
+
+									<c:if test="${category.cid == mainInfo.cid}">
+										<div>
+											<div class="xuangou_left fl">
+												<a href="">
+													<div class="img fl"><img src="${path}/${mainInfo.url}" width="40px" height="40px" alt=""></div>
+													<span class="fl">${mainInfo.pName}</span>
+													<div class="clear"></div>
+												</a>
+											</div>
+											<div class="xuangou_right fr"><a href="${path}/product/getProductInfo?pid=${mainInfo.pid}">选购</a></div>
+											<div class="clear"></div>
+										</div>
+									</c:if>
+
+
+								</c:forEach>
+
+                            </div>
+                            <div class="clear"></div>
+						</div>
+                        </li>
+					</c:forEach>
+
+
+					<%--<li>
 						<a href="">手机</a>
 						<a href="">电话卡</a>
 						<div class="pop">
@@ -661,7 +696,8 @@
 					<li>
 						<a href="">移动电源</a>
 						<a href="">电池</a>
-						<a href="">插线板</a>
+
+						&lt;%&ndash;<a href="">插线板</a>&ndash;%&gt;
 						<div class="pop">
 							<div class="left fl">
 								<div>
@@ -1226,7 +1262,9 @@
 						<a href="">生活周边</a>
 						<div class="pop">
 							<div class="left fl">
-								<div>
+
+
+                                <div>
 									<div class="xuangou_left fl">
 										<a href="">
 											<div class="img fl"><img src="${path}/static/image/xm6_80.png" alt=""></div>
@@ -1237,7 +1275,10 @@
 									<div class="xuangou_right fr"><a href="">选购</a></div>
 									<div class="clear"></div>
 								</div>
-								<div>
+
+
+
+                                <div>
 									<div class="xuangou_left fl">
 										<a href="">
 											<div class="img fl"><img src="${path}/static/image/5c_80.png" alt=""></div>
@@ -1248,7 +1289,9 @@
 									<div class="xuangou_right fr"><a href="">选购</a></div>
 									<div class="clear"></div>
 								</div>
-								<div>
+
+
+                                <div>
 									<div class="xuangou_left fl">
 										<a href="">
 											<div class="img fl"><img src="${path}/static/image/xmNOTE2-80.jpg" alt=""></div>
@@ -1281,7 +1324,9 @@
 									<div class="xuangou_right fr"><a href="">选购</a></div>
 									<div class="clear"></div>
 								</div>
-								<div>
+
+
+                                <div>
 									<div class="xuangou_left fl">
 										<a href="">
 											<div class="img fl"><img src="${path}/static/image/xm5Splus.jpg" alt=""></div>
@@ -1292,11 +1337,21 @@
 									<div class="xuangou_right fr"><a href="">选购</a></div>
 									<div class="clear"></div>
 								</div>
-							</div>
+
+
+                            </div>
 							<div class="clear"></div>
 						</div>
-					</li>
+					</li>--%>
+
+
+
 				</ul>
+
+
+
+
+
 			</div>
 
 		</div>
@@ -1332,12 +1387,12 @@
 						<div class="sub_mingxing"><a href="${path}/product/getProductInfo?pid=${product.pid}"><img src="${path}/${product.url}" alt=""></a></div>
 						<div class="pinpai"><a href="">${product.pName}</a></div>
 						<div class="youhui">${product.intro}</div>
-						<div class="jiage">${product.selPrice}</div>
+						<div class="jiage">${product.selPrice}元</div>
 					</div>
 				</c:forEach>
 
 
-				<div class="mingxing fl">
+				<%--<div class="mingxing fl">
 					<div class="sub_mingxing"><a href=""><img src="${path}/static/image/pinpai3.png" alt=""></a></div>
 					<div class="pinpai"><a href="">小米手机5 64GB</a></div>
 					<div class="youhui">5月9日-10日，下单立减100元</div>
@@ -1355,7 +1410,7 @@
 					<div class="youhui">更轻更薄，像杂志一样随身携带</div>
 					<div class="jiage">3599元起</div>
 				</div>
-				<div class="clear"></div>
+				<div class="clear"></div>--%>
 			</div>
 		</div>
 		<div class="peijian w">

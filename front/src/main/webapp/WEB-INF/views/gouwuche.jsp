@@ -15,15 +15,14 @@
 		<div class="banner_x center">
 			<a href="./index.html" target="_blank"><div class="logo fl"></div></a>
 			
-			<div class="wdgwc fl ml40">我的购物车</div>
+			<div class="wdgwc fl ml40" style="color: #ff6700">我的购物车</div>
 			<div class="wxts fl ml20">温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</div>
 			<div class="dlzc fr">
-				<ul>
-					<li><a href="./login.html" target="_blank">登录</a></li>
-					<li>|</li>
-					<li><a href="./register.html" target="_blank">注册</a></li>	
-				</ul>
-				
+				<c:choose>
+					<c:when test="${sessionScope.member != null}">
+						<li><a href="${path}/orders/getAll" target="_blank" style="color:#ff6700;">个人中心</a></li>
+					</c:when>
+				</c:choose>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -108,13 +107,13 @@
 					<ul>
 						<li><a href="${path}/toMain">继续购物</a></li>
 						<li>|</li>
-						<li>共<span>${num}</span>件商品，已选择<span>${requestScope.i}</span>件</li>
+						<li>共<span>${requestScope.size}</span>件商品，已选择<span>${requestScope.i}</span>件</li>
 						<div class="clear"></div>
 					</ul>
 				</div>
 				<div class="jiesuan fr">
 					<div class="jiesuanjiage fl">合计（不含运费）：<span>${requestScope.total}元</span></div>
-					<div class="jsanniu fr"><input class="jsan" type="button" name="jiesuan" onclick="balance()" value="去结算"/></div>
+					<div class="jsanniu fr"><input class="jsan" type="button" name="jiesuan" onclick="balance(${requestScope.i})" value="去结算"/></div>
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>

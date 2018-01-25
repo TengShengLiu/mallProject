@@ -1,6 +1,8 @@
 package com.hwua.front.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.hwua.common.po.Address;
+import com.hwua.front.service.AddressService;
 import com.hwua.front.service.MemberService;
 import com.hwua.common.po.Member;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,8 @@ public class MemberController {
 
     @Autowired
     private MemberService memberService;
+    @Autowired
+    private AddressService addressService;
 
     @RequestMapping(value = "/login",produces = "application/json;charset=utf-8")
     @ResponseBody
@@ -41,6 +45,8 @@ public class MemberController {
             //登录成功
             jsonObject.put("flag",true);
             jsonObject.put("msg","登陆成功");
+            Address defaultAddr = addressService.getDefaultAddr(member.getMid());
+            session.setAttribute("defaultAddr",defaultAddr);
             session.setAttribute("member",member);
         }
         return jsonObject.toJSONString();

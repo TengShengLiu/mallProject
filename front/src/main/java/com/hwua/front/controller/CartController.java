@@ -1,9 +1,11 @@
 package com.hwua.front.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.hwua.common.po.Address;
 import com.hwua.common.po.Cart;
 import com.hwua.common.po.Member;
 import com.hwua.common.po.Product;
+import com.hwua.front.service.AddressService;
 import com.hwua.front.service.CartService;
 import com.hwua.front.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,9 @@ public class CartController {
     private CartService cartService;
     @Autowired
     private ProductService productService;
+    @Autowired
+    private AddressService addressService;
+
 
 
 
@@ -124,18 +129,47 @@ public class CartController {
         System.out.println("balanceList = " + balanceList);
         ModelAndView view = new ModelAndView();
         int total = 0;
-        int i;
+        int i = 0;
+
+        //如果购物车没商品，则会让购物
+        if(balanceList.size()==0){
+            return new ModelAndView("redirect:/toMain");
+        }
+
         for (i=0;i<balanceList.size();i++){
             Map<String, Object> map1 = balanceList.get(i);
             Integer count = (Integer) map1.get("count");
             Integer selprice = (Integer) map1.get("SELPRICE");
             total += (count*selprice);
         }
+        //查找地址，添加地址
+        Address defaultAddr = addressService.getDefaultAddr(mid);
+        if(defaultAddr == null){
+            //添加地址
+            return new ModelAndView("addAddress");
+        }
+        String addr = defaultAddr.getAddr();
+
+
+        view.addObject("addr",addr);
         view.addObject("balanceList",balanceList);
         view.addObject("total",total);
         session.setAttribute("total",total);
         view.addObject("i",i);
         view.setViewName("balance");
+        return view;
+    }
+
+
+
+    @RequestMapping("/getUnPay")
+    public ModelAndView getUnPay(HttpSession session){
+        Member member = (Member) session.getAttribute("member");
+        Integer mid = member.getMid();
+        List<Map<String, Object>> status0 = cartService.getStatus0(mid);
+        ModelAndView view = new ModelAndView();
+        view.addObject("status0",status0);
+        view.setViewName("daifukuan");
         return view;
     }
 
